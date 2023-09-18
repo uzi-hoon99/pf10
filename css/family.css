@@ -1,0 +1,27 @@
+section#family {
+  
+}
+section#family div.wrap {
+  
+  background-color: #3e2d20;
+}
+section#family div.wrap ul {
+  
+  display: flex;
+  padding: 10px 0;
+}
+section#family div.wrap ul li {
+  
+  width: calc(100% / 5);
+}
+section#family div.wrap ul li a {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#family div.wrap ul li a img {
+  
+}

@@ -1,0 +1,76 @@
+footer {
+  
+}
+footer div.wrap {
+  
+  background-color: #2b2119;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer div.wrap ul.gnb {
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #1C1006;
+}
+footer div.wrap ul.gnb li {
+  position: relative;
+}
+footer div.wrap ul.gnb li:nth-child(-n+6)::after {
+  content: "";
+  height: 50%;
+  display: block;
+  position: absolute;
+  right: -9px;
+  border-right: 1px solid #1C1006;
+  top: 9px;
+}
+footer div.wrap ul.gnb li a {
+  
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: #f9e0c3;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+footer div.wrap ul.gnb li:nth-child(1) a {
+  color: #ffcc73;
+}
+footer div.wrap > div {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffe6ca;
+  line-height: 1.5;
+}
+footer div.wrap div.footerleft {
+  
+}
+footer div.wrap div.footerleft p {
+  
+}
+footer div.wrap div.footerleft p a {
+  
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+footer div.wrap div.footerright {
+  
+}
+footer div.wrap div.footerright p {
+  
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+footer div.wrap div.footerright p span {
+  
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffcc73;
+}
